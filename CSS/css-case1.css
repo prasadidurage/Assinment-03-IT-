@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+  }
+  .main-box {
+    width: 50vw;
+    height: 50vh;
+    border: 0px solid white;
+  }
+  .top-left-box {
+    background-color: red;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .top-right-box {
+    background-color: rgb(39, 155, 39);
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  .bottom-left-box {
+    background-color: rgb(255, 221, 25);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  .bottom-right-box {
+    background-color: rgb(248, 31, 150);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+  .box1 {
+    border: 1px solid white;
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+  }
+  .box2 {
+    border: 1px solid white;
+    background-color: white;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+  }
+  .top-left {
+    top: 0;
+    left: 0;
+    border-bottom-right-radius: 100%;
+  }
+  .top-right {
+    top: 0;
+    right: 0;
+    border-bottom-left-radius: 100%;
+  }
+  .bottom-left {
+    bottom: 0;
+    left: 0;
+    border-top-right-radius: 100%;
+  }
+  .bottom-right {
+    bottom: 0;
+    right: 0;
+    border-top-left-radius: 100%;
+  }
+  .bottom-right-square {
+    bottom: 0;
+    right: 0;
+  }
+  .bottom-left-square {
+    bottom: 0;
+    left: 0;
+  }
+  .top-right-square {
+    top: 0;
+    right: 0;
+  }
+  .circle {
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .square {
+    width: 60px;
+    height: 60px;
+    border: 1px solid white;
+    background-color: red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .Circle {
+    width: 80px;
+    height: 80px;
+    border: 1px solid white;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
